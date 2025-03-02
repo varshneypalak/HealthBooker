@@ -50,7 +50,7 @@ const Users = () => {
 
   useEffect(() => {
     getAllUsers();
-  }, []);
+  }, [dispatch]);
 
   return (
     <>

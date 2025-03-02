@@ -30,7 +30,7 @@ const Appointments = () => {
 
   useEffect(() => {
     getAllAppoint();
-  }, []);
+  }, [dispatch, userId]);
 
   const complete = async (ele) => {
     try {
